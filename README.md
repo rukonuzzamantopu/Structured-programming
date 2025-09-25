@@ -1,6 +1,6 @@
-## Structured Programming using C
+# Structured Programming using C
 
--This repository contains my projects and exercises from the first semester of learning programming in C. It includes basic programs like "Hello World," my lab report,Lab menual problem solve , and a project for a **Bank Management System** that demonstrates the fundamental concepts of structured programming.
+This repository contains my projects and exercises from the first semester of learning programming in C. It includes basic programs like "Hello World," my lab report,Lab menual problem solve , and a project for a **Bank Management System** that demonstrates the fundamental concepts of structured programming.
 ---
 ## Contents
 
