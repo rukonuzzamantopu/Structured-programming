@@ -1,3 +1,1 @@
-Less than or equal to 100
-Less than or equal to 50
-Less than or equal to 20
+Greater than 100topu
