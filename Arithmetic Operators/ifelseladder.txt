@@ -1,0 +1,3 @@
+Explain if else ladder.
+
+The if-else if ladder in C is a control structure that allows for sequential evaluation of multiple conditions and execution of the code block associated with the first true condition. It is used when a choice needs to be made among more than two possibilities. 
