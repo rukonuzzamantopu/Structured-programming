@@ -1,6 +1,7 @@
 #include <stdio.h>
+char arr[10000001];
 int main(){
-  char arr[10000001];
+
     scanf("%s",arr);
     int freq[256]={0};
     for(int i=0;arr[i]!='\0';i++){
