@@ -14,7 +14,7 @@ int main()
 
         for (int j = 0; j < val; j++)
         {
-            printf("%d ",j);
+            printf("Sorry");
         }
         val ++;
         space--;
