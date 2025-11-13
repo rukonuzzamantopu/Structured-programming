@@ -10,7 +10,7 @@ int main()
     {
         long long int m;
         int a, b, c;
-        scanf("%d %d %d %d", &m, &a, &b, &c);
+        scanf("%lld %d %d %d", &m, &a, &b, &c);
         int mul = a * b * c;
 
         if (m == 0)
