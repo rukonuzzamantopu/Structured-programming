@@ -1,5 +1,3 @@
-10
-20
-30
-40
-50
+Enter size of array: Enter 5 elements:
+Reversed array:
+50 40 30 20 10 
