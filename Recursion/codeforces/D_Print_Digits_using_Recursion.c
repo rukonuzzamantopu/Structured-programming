@@ -1,34 +1,29 @@
 #include <stdio.h>
 
-void printDigits(long long n)
+void printDigits(int n)
 {
-    if (n < 10)
+    if (n == 0)
     {
-        printf("%lld ", n);
         return;
     }
-
     printDigits(n / 10);
-    printf("%lld ", n % 10);
+    int last = n % 10;
+    printf("%d ", last);
 }
-
 int main()
 {
-    int T;
-    scanf("%d", &T);
-
-    while (T--)
+    int num;
+    scanf("%d", &num);
+    for (int i = 0; i < num; i++)
     {
-        long long N;
-        scanf("%lld", &N);
-
-        if (N == 0)
-            printf("0 ");
-        else
-            printDigits(N);
-
+        int x;
+        scanf("%d", &x);
+        if (x == 0)
+        {
+            printf("0");
+        }
+        printDigits(x);
         printf("\n");
     }
-
     return 0;
 }
